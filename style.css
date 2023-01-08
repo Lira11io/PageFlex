@@ -1,0 +1,78 @@
+.header {
+  min-height: 50px;
+  background-color: rgb(145, 61, 223);
+  text-align: center;
+}
+
+.main {
+  min-height: 250px;
+  display: flex;
+}
+
+.section {
+  min-height: 250px;
+  width: 70%;
+  background-color: rgb(212, 65, 193);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  text-align: center;
+  justify-content: center;
+}
+
+.text {
+  min-height: 100px;
+  width: 100%;
+  background-color: rgb(212, 65, 193);
+  text-align: center;
+}
+
+.article {
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.cub {
+  min-height: 70px;
+  flex: 1 0 auto;
+  margin: 5px;
+  background-color: rgb(197, 177, 86);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cub3 {
+  min-height: 70px;
+  flex: 1 0 100%;
+  margin: 5px;
+  background-color: rgb(197, 177, 86);
+  text-align: center;
+}
+
+.aside {
+  min-height: 250px;
+  width: 30%;
+  background-color: rgb(101, 219, 120);
+  text-align: center;
+}
+
+.footer {
+  min-height: 70px;
+  background-color: rgb(145, 61, 223);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.section1 {
+  min-height: 55px;
+  width: 180px;
+  background-color: rgb(177, 167, 187);
+  flex: 0 0 23%;
+}
