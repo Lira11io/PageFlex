@@ -1,6 +1,9 @@
+.root {
+  background-color: rgb(145, 61, 223);
+}
+
 .header {
   min-height: 50px;
-  background-color: rgb(145, 61, 223);
   text-align: center;
 }
 
@@ -17,7 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -41,8 +44,9 @@
   flex: 1 0 auto;
   margin: 5px;
   background-color: rgb(197, 177, 86);
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cub3 {
@@ -50,7 +54,9 @@
   flex: 1 0 100%;
   margin: 5px;
   background-color: rgb(197, 177, 86);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aside {
@@ -62,12 +68,10 @@
 
 .footer {
   min-height: 70px;
-  background-color: rgb(145, 61, 223);
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  vertical-align: middle;
 }
 
 .section1 {
@@ -75,4 +79,8 @@
   width: 180px;
   background-color: rgb(177, 167, 187);
   flex: 0 0 23%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
